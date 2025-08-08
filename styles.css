@@ -1,0 +1,105 @@
+h1 {
+    color: blue;
+    font-size: 60px;
+}
+p {
+    color: red;
+    font-size: 20px;
+
+
+}
+body {
+   background: #85be3f;
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 9000%;
+}
+
+/* Basic styling for your website */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    padding-bottom: 0px;
+     line-height: 1;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    background-color: #93432684 ;
+    transition-property: 20%;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #020202;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+img {
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+p {
+    color: #000000;
+    font-size: 16px;
+}
+
+ul {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+a {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    text-decoration: none; /* Removes underline */
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Hover effect for links */
+a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px); /* Lifts up on hover */
+    box-shadow: 0 4px 10px rgba(253, 253, 253, 0.3);
+}
+.bounce-button:hover {
+    animation: bounce 0.5s;
+}
+
+.roboto-flex {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "wdth" 100,
+    "GRAD" 0,
+    "XOPQ" 96,
+    "XTRA" 468,
+    "YOPQ" 79,
+    "YTAS" 750,
+    "YTDE" -203,
+    "YTFI" 738,
+    "YTLC" 514,
+    "YTUC" 712;
+}
